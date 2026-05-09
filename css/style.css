@@ -1,0 +1,124 @@
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+  margin-top: 0px;
+}
+
+.TextCarousel {
+  display: inline-block;
+  background-color: rgba(245, 245, 220, 0.555);
+  color: black;
+  padding: 12px 18px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.TextCarousel h5,
+.TextCarousel p {
+  margin: 0;
+}
+.sobre {
+    padding: 20px;
+    text-align: center;
+}
+.conteudo,
+.introducao{
+    width: 100%;
+    padding: 70px 8%;
+}
+.titulo-secao{
+    text-align: center;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 45px;
+
+    color: #2e7d32;
+}
+.grade{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+.card{
+    background: rgba(15,23,42,0.9);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 22px;
+
+    padding: 28px;
+
+    transition: 0.35s ease;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.25);
+
+    backdrop-filter: blur(8px);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+    border-color: #2e7d32;;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.35);
+}
+.card h3{
+    color: #2e7d32;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 18px;
+}
+
+.card p{
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.card h4{
+    margin-top: 20px;
+
+    color: #22c55e;
+
+    font-size: 0.95rem;
+}
+.destaque{
+    max-width: 950px;
+
+    margin: auto;
+
+    text-align: center;
+
+    padding: 40px;
+}
+
+.destaque h3{
+    font-size: 2rem;
+}
+.criptobiose{
+    max-width: 950px;
+    margin: auto;
+}
+
+.criptobiose ul{
+    margin-top: 25px;
+
+    padding-left: 25px;
+}
+
+.criptobiose li{
+    margin-bottom: 12px;
+
+    line-height: 1.6;
+}
